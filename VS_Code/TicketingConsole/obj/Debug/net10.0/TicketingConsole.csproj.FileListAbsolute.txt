@@ -1,0 +1,15 @@
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.AssemblyInfoInputs.cache
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.AssemblyInfo.cs
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.csproj.CoreCompileInputs.cache
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\bin\Debug\net10.0\TicketingConsole.exe
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\bin\Debug\net10.0\TicketingConsole.deps.json
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\bin\Debug\net10.0\TicketingConsole.runtimeconfig.json
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\bin\Debug\net10.0\TicketingConsole.dll
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\bin\Debug\net10.0\TicketingConsole.pdb
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.dll
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\refint\TicketingConsole.dll
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.pdb
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\TicketingConsole.genruntimeconfig.cache
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\ref\TicketingConsole.dll
+C:\Users\delar\OneDrive\Desktop\VS_Code\TicketingConsole\TicketingConsole\obj\Debug\net10.0\Ticketin.813BE2E8.Up2Date
