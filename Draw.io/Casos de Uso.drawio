@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="_UjAxn_09w7yo-VOSVDy">
+    <mxGraphModel dx="1334" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys_boundary" parent="1" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;strokeWidth=2;dashed=0;fontSize=14;spacingTop=10;" value="&lt;span style=&quot;color: rgb(30, 41, 59);&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;Diagramas de Casos de Uso - Sistema de Ticketing&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="660" width="690" x="240" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="act_cliente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#E2E8F0;strokeColor=#475569;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1E293B;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Cliente /&lt;br&gt;Usuario Final&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="60" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="act_agente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1E293B;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Agente de&lt;br&gt;Soporte&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="60" x="60" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="act_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1E293B;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Administrador&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="60" x="1030" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cu_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#3B82F6;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1E3A8A;" value="&lt;font face=&quot;Times New Roman&quot;&gt;1. Crear ticket&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="320" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cu_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#3B82F6;strokeWidth=2;fontSize=11;fontStyle=1;fontColor=#1E3A8A;" value="&lt;font face=&quot;Times New Roman&quot;&gt;2. Asignar ticket (SLA)&lt;br&gt;[Service Level Agreement]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="220" x="310" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cu_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#3B82F6;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1E3A8A;" value="&lt;font face=&quot;Times New Roman&quot;&gt;3. Escalar ticket&lt;br&gt;(recursiva)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="320" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="cu_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#78350F;" value="&lt;font face=&quot;Times New Roman&quot;&gt;4. Cerrar caso&lt;br&gt;(customer experience)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="220" x="310" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cu_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#14532D;" value="&lt;font face=&quot;Times New Roman&quot;&gt;5. Crear métricas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="690" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_1" edge="1" parent="1" source="act_cliente" style="endArrow=none;html=1;rounded=0;strokeColor=#475569;strokeWidth=1.5;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cu_1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="190" as="sourcePoint" />
+            <mxPoint x="310" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_2" edge="1" parent="1" source="act_agente" style="endArrow=none;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=1.5;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cu_2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="310" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_3" edge="1" parent="1" source="act_agente" style="endArrow=none;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cu_3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="470" as="sourcePoint" />
+            <mxPoint x="310" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_4" edge="1" parent="1" source="act_agente" style="endArrow=none;html=1;rounded=0;strokeColor=#2563EB;strokeWidth=1.5;exitX=1;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cu_4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="500" as="sourcePoint" />
+            <mxPoint x="310" y="577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel_5" edge="1" parent="1" source="act_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#16A34A;strokeWidth=2;exitX=0;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="cu_5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1020" y="450" as="sourcePoint" />
+            <mxPoint x="900" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nota_reglas" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=11;align=left;size=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;Reglas de Uso del Sistema&lt;br&gt;1. Todo ticket creado debe cumplir con los tiempos del SLA.&lt;br&gt;2. El escalamiento de tickets funciona de forma recursiva hacia niveles superiores.&lt;br&gt;3. El cierre de casos evalúa la métrica de Customer Experience.&lt;br&gt;4. El Administrador genera métricas globales de rendimiento.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="310" x="600" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
