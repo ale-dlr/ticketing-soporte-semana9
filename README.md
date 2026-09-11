@@ -23,9 +23,9 @@ El sistema valida el avance de cada caso según el siguiente flujo de estados:
 ```mermaid
 stateDiagram-v2
     [*] --> Abierto: Creación del Ticket
-    Abierto --> Asignado: Asignación a Técnico / SLA
+    Abierto --> Asignado: Asignación a Técnico
     Asignado --> Resuelto: Aplicación de Solución
-    Resuelto --> Cerrado: Validación y Customer Experience
+    Resuelto --> Cerrado: Validación de Cierre
     Cerrado --> [*]
 
 **BlueJ (Java)**
