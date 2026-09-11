@@ -19,14 +19,19 @@ El sistema simula las operaciones clave de un departamento de soporte técnico c
 
 ---
 
-## 📊 Diagramas del Sistema
+## Como Usar BlueJ
 
-### Flujo de Estados del Ticket
-```mermaid
-stateDiagram-v2
-    [*] --> Abierto: Creación del Ticket
-    Abierto --> Asignado: Asignación a Técnico
-    Asignado --> Resuelto: Aplicación de Solución
-    Resuelto --> Cerrado: Validación de Cierre
-    Cerrado --> [*]
+1. Abrir BlueJ.
+2. Ir a `Project` -> `Open Project...`.
+3. Elegir la carpeta del proyecto (por ejemplo `CajeroAutomatico` o `CarritodeCompras\bluej`).
+4. Presionar `Compile` para compilar las clases.
+5. Hacer clic derecho sobre la clase con `main` o instanciar objetos directamente en el banco de objetos.
 
+---
+
+## Como Usar Visual Studio Community
+
+1. Abrir Visual Studio Community.
+2. Ir a File -> Open -> Project/Solution... y seleccionar el archivo de solución (.sln) o la carpeta del proyecto.
+3. En el Explorador de soluciones (Solution Explorer), verificar que el proyecto cargue correctamente con sus dependencias.
+4. Presionar el botón Start (o la tecla F5) en la barra de herramientas superior para compilar y ejecutar el sistema, o usar Ctrl + F5 para ejecutarlo sin depuración.
