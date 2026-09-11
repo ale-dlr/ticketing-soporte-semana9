@@ -32,6 +32,6 @@ El sistema simula las operaciones clave de un departamento de soporte técnico c
 ## Como Usar Visual Studio Community
 
 1. Abrir Visual Studio Community.
-2. Ir a File -> Open -> Project/Solution... y seleccionar el archivo de solución (.sln) o la carpeta del proyecto.
+2. Ir a `File` -> `Open` -> `Project/Solution...` y seleccionar el archivo de solución `(.sln)` o la carpeta del proyecto.
 3. En el Explorador de soluciones (Solution Explorer), verificar que el proyecto cargue correctamente con sus dependencias.
-4. Presionar el botón Start (o la tecla F5) en la barra de herramientas superior para compilar y ejecutar el sistema, o usar Ctrl + F5 para ejecutarlo sin depuración.
+4. Presionar el botón Start `(o la tecla F5)` en la barra de herramientas superior para compilar y ejecutar el sistema, o usar Ctrl + F5 para ejecutarlo sin depuración.
