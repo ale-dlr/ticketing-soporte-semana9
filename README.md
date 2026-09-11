@@ -1,25 +1,27 @@
 # 🎫 Sistema de Tickets de Soporte Técnico Corporativo
 
-Sistema desarrollado en Java y C# para la gestión, control y ciclo de vida de tickets de soporte técnico corporativo, implementando Programación Orientada a Objetos (POO), colecciones, polimorfismo y algoritmos recursivos.
+Sistema de consola desarrollado en **Java** (**BlueJ**) y **C#** (**.NET** / **VS Code**) diseñado para la gestión, control y ciclo de vida de tickets de soporte técnico corporativo. Implementa los pilares de la Programación Orientada a Objetos (POO), manejo de colecciones, polimorfismo y algoritmos recursivos.
 
 ---
 
 ## 📋 Descripción del Caso
 
-El sistema permite simular las operaciones clave de un departamento de soporte técnico, facilitando la interacción entre **Solicitantes** (empleados de diferentes departamentos) y **Técnicos** (especializados por áreas y niveles). 
+El sistema simula las operaciones clave de un departamento de soporte técnico corporativo, facilitando la interacción entre dos tipos de usuarios:
+* **Solicitantes:** Empleados pertenecientes a diferentes departamentos (como Contabilidad o Ventas) que reportan incidentes o requerimientos.
+* **Técnicos:** Personal especializado clasificado por áreas (Software, Hardware, General) y niveles de experiencia.
 
-Sus funcionalidades principales incluyen:
-* **Gestión de Usuarios:** Registro de técnicos y solicitantes mediante jerarquía de clases y polimorfismo.
-* **Ciclo de Vida de Tickets:** Creación, asignación automática, registro de errores en bitácora, resolución y cierre de casos.
-* **Escalamiento Recursivo:** Simulación de transferencia de niveles de soporte mediante algoritmos recursivos.
-* **Métricas y Control:** Generación de resúmenes de control y conteo de estados de los tickets (Abiertos, Resueltos, Cerrados).
+### Funcionalidades principales:
+1. **Gestión de Usuarios:** Visualización y polimorfismo aplicado en los perfiles del sistema.
+2. **Ciclo de Vida de los Tickets:** Creación de tickets (incidentes o requerimientos), asignación de prioridades y control de estados.
+3. **Bitácora de Errores:** Registro detallado de incidencias técnicas asociadas a cada ticket con su respectivo impacto.
+4. **Escalamiento Recursivo:** Simulación de transferencia de niveles de soporte mediante funciones recursivas.
+5. **Métricas y Control:** Generación de un resumen cuantitativo del estado actual de los casos (Abiertos, Resueltos, Cerrados).
 
 ---
 
-## 🔄 Flujo de Estados del Ticket
+## 📊 Diagramas del Sistema
 
-El sistema valida el avance de cada caso según el siguiente flujo de estados:
-
+### Flujo de Estados del Ticket
 ```mermaid
 stateDiagram-v2
     [*] --> Abierto: Creación del Ticket
