@@ -29,26 +29,3 @@ stateDiagram-v2
     Asignado --> Resuelto: Aplicación de Solución
     Resuelto --> Cerrado: Validación de Cierre
     Cerrado --> [*]
-
-**BlueJ (Java)**
-Abre la aplicación BlueJ en tu computadora.
-
-Selecciona Proyecto > Abrir proyecto (Project > Open Project).
-
-Navega y selecciona la carpeta del proyecto que contiene los archivos .java.
-
-Si las clases aparecen con líneas rayadas (sin compilar), haz clic derecho en el botón Compile (o presiona Ctrl + K) para compilar todas las clases del proyecto.
-
-Haz clic derecho sobre la clase principal (Simulador), selecciona la opción void main(String[] args) y haz clic en Aceptar para iniciar la ejecución en la terminal interactiva.
-
-**Visual Studio Code (C# / .NET)**
-Asegúrate de tener instalado el .NET SDK y la extensión de C# en VS Code.
-
-Abre Visual Studio Code, ve a Archivo > Abrir carpeta (File > Open Folder) y selecciona la carpeta raíz de tu proyecto en C#.
-
-Abre la terminal integrada en VS Code presionando las teclas Ctrl + ` (o ve al menú superior Ver > Terminal).
-
-Escribe el siguiente comando para compilar y ejecutar el programa en tiempo real:
-
-dotnet run
-Interactúa con las opciones del menú de la consola directamente desde la terminal de VS Code.
